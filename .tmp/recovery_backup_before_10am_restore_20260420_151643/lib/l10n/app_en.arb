@@ -1,0 +1,1182 @@
+{
+  "@@locale": "en",
+  "appTitle": "Gaseel Courier",
+  "@appTitle": {
+    "description": "The application title"
+  },
+  "orders": "Orders",
+  "@orders": {
+    "description": "Orders page title"
+  },
+  "stats": "Statistics",
+  "@stats": {
+    "description": "Statistics page title"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "Profile page title"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings page title"
+  },
+  "login": "Login",
+  "signup": "Sign Up",
+  "dontHaveAccount": "Don't have an account?",
+  "uploadDocuments": "Upload Documents",
+  "drivingLicense": "Driving License",
+  "nationalIdCard": "National ID Card",
+  "vehicleType": "Vehicle Type",
+  "plateNumber": "Plate Number",
+  "insuranceNumber": "Insurance Number",
+  "awaitingReview": "Awaiting Review",
+  "reviewDescription": "We are currently reviewing your documents. Your account will be activated once they are approved.",
+  "secondsRemaining": "seconds remaining",
+  "submit": "Submit",
+  "@login": {
+    "description": "Login page title"
+  },
+  "splash": "Loading...",
+  "@splash": {
+    "description": "Splash screen text"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language setting label"
+  },
+  "arabic": "Arabic",
+  "@arabic": {
+    "description": "Arabic language name"
+  },
+  "english": "English",
+  "@english": {
+    "description": "English language name"
+  },
+  "systemDefault": "System default",
+  "@systemDefault": {
+    "description": "System default language option"
+  },
+  "selectLanguage": "Select Language",
+  "@selectLanguage": {
+    "description": "Language selection dialog title"
+  },
+  "username": "Username",
+  "@username": {
+    "description": "Username field label"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Password field label"
+  },
+  "usernameRequired": "Username is required",
+  "@usernameRequired": {
+    "description": "Username validation error"
+  },
+  "passwordRequired": "Password is required",
+  "@passwordRequired": {
+    "description": "Password validation error"
+  },
+  "loggingIn": "Logging in...",
+  "@loggingIn": {
+    "description": "Login loading message"
+  },
+  "permission": "Permission",
+  "@permission": {
+    "description": "Permission page title"
+  },
+  "locationPermissionRequired": "Location Permission Required",
+  "@locationPermissionRequired": {
+    "description": "Location permission title"
+  },
+  "locationPermissionDescription": "This app needs location permission to track deliveries and provide accurate delivery services.",
+  "@locationPermissionDescription": {
+    "description": "Location permission description"
+  },
+  "grantPermission": "Grant Permission",
+  "@grantPermission": {
+    "description": "Grant permission button"
+  },
+  "openSettings": "Open Settings",
+  "@openSettings": {
+    "description": "Open settings button"
+  },
+  "permissionDenied": "Permission Denied",
+  "@permissionDenied": {
+    "description": "Permission denied title"
+  },
+  "permissionDeniedMessage": "Location permission is required for this app to function properly. Please grant permission in settings.",
+  "@permissionDeniedMessage": {
+    "description": "Permission denied message"
+  },
+  "permissionPermanentlyDenied": "Permission Permanently Denied",
+  "@permissionPermanentlyDenied": {
+    "description": "Permission permanently denied title"
+  },
+  "permissionPermanentlyDeniedMessage": "Location permission has been permanently denied. Please enable it in your device settings to use this app.",
+  "@permissionPermanentlyDeniedMessage": {
+    "description": "Permission permanently denied message"
+  },
+  "requestingPermission": "Requesting Permission...",
+  "@requestingPermission": {
+    "description": "Requesting permission loading message"
+  },
+  "locationUnavailable": "Location Unavailable",
+  "@locationUnavailable": {
+    "description": "Location unavailable title"
+  },
+  "locationUnavailableMessage": "Unable to access location services. You can continue in demo mode.",
+  "@locationUnavailableMessage": {
+    "description": "Location unavailable message"
+  },
+  "continueDemo": "Continue (Demo)",
+  "@continueDemo": {
+    "description": "Continue in demo mode button"
+  },
+  "today": "Today",
+  "@today": {
+    "description": "Today tab label"
+  },
+  "upcoming": "Upcoming",
+  "@upcoming": {
+    "description": "Upcoming tab label"
+  },
+  "completed": "Completed",
+  "@completed": {
+    "description": "Completed status and tab label"
+  },
+  "pending": "Pending",
+  "@pending": {
+    "description": "Pending status"
+  },
+  "inProgress": "In Progress",
+  "@inProgress": {
+    "description": "In Progress status"
+  },
+  "cancelled": "Cancelled",
+  "@cancelled": {
+    "description": "Cancelled status"
+  },
+  "pickup": "Pickup",
+  "@pickup": {
+    "description": "Pickup order type"
+  },
+  "dropoff": "Dropoff",
+  "@dropoff": {
+    "description": "Dropoff order type"
+  },
+  "searchOrders": "Search orders...",
+  "@searchOrders": {
+    "description": "Search orders placeholder"
+  },
+  "noOrders": "No orders",
+  "@noOrders": {
+    "description": "No orders message"
+  },
+  "noOrdersFound": "No orders found",
+  "@noOrdersFound": {
+    "description": "No orders found message"
+  },
+  "orderDetails": "Order Details",
+  "@orderDetails": {
+    "description": "Order details page title"
+  },
+  "orderInformation": "Order Information",
+  "@orderInformation": {
+    "description": "Order information section"
+  },
+  "orderId": "Order ID",
+  "@orderId": {
+    "description": "Order ID label"
+  },
+  "orderType": "Type",
+  "@orderType": {
+    "description": "Order type label"
+  },
+  "status": "Status",
+  "@status": {
+    "description": "Status label"
+  },
+  "scheduledDateTime": "Scheduled",
+  "@scheduledDateTime": {
+    "description": "Scheduled date time label"
+  },
+  "location": "Location",
+  "@location": {
+    "description": "Location section"
+  },
+  "area": "Area",
+  "@area": {
+    "description": "Area label"
+  },
+  "district": "District",
+  "@district": {
+    "description": "District label"
+  },
+  "coordinates": "Coordinates",
+  "@coordinates": {
+    "description": "Coordinates label"
+  },
+  "customerInformation": "Customer Information",
+  "@customerInformation": {
+    "description": "Customer information section"
+  },
+  "customerName": "Name",
+  "@customerName": {
+    "description": "Customer name label"
+  },
+  "customerPhone": "Phone",
+  "@customerPhone": {
+    "description": "Customer phone label"
+  },
+  "notes": "Notes",
+  "@notes": {
+    "description": "Notes section"
+  },
+  "homePhotos": "Home Photos",
+  "@homePhotos": {
+    "description": "Home photos section"
+  },
+  "orderNotFound": "Order not found",
+  "@orderNotFound": {
+    "description": "Order not found message"
+  },
+  "loginTitle": "Login",
+  "@loginTitle": {
+    "description": "Login page title"
+  },
+  "requiredField": "This field is required",
+  "@requiredField": {
+    "description": "Required field validation error"
+  },
+  "invalidLogin": "Invalid username or password",
+  "@invalidLogin": {
+    "description": "Invalid login credentials error"
+  },
+  "enableLocationTitle": "Enable Location",
+  "@enableLocationTitle": {
+    "description": "Enable location title"
+  },
+  "enableLocationDesc": "Please enable location services to continue",
+  "@enableLocationDesc": {
+    "description": "Enable location description"
+  },
+  "enableLocation": "Enable Location",
+  "@enableLocation": {
+    "description": "Enable location button"
+  },
+  "companyName": "Gaseel Express",
+  "@companyName": {
+    "description": "Company name"
+  },
+  "loginSubtitle": "Login - Driver App",
+  "@loginSubtitle": {
+    "description": "Login page subtitle"
+  },
+  "copyright": "© 2024 Gaseel Express. All rights reserved.",
+  "@copyright": {
+    "description": "Copyright footer text"
+  },
+  "onboardingProfileTitle": "Complete Profile",
+  "@onboardingProfileTitle": {
+    "description": "Onboarding profile step title"
+  },
+  "onboardingProfileDesc": "Please complete your profile information to continue.",
+  "@onboardingProfileDesc": {
+    "description": "Onboarding profile step description"
+  },
+  "onboardingProfilePlaceholder": "Profile fields will be added here.",
+  "@onboardingProfilePlaceholder": {
+    "description": "Profile placeholder text"
+  },
+  "completeProfile": "Complete Profile",
+  "@completeProfile": {
+    "description": "Complete profile button"
+  },
+  "permissionsTitle": "App Permissions",
+  "@permissionsTitle": {
+    "description": "Permissions page title"
+  },
+  "permissionsDescription": "We need these permissions to provide you with the best delivery experience.",
+  "@permissionsDescription": {
+    "description": "Permissions page description"
+  },
+  "locationPermissionName": "Location",
+  "@locationPermissionName": {
+    "description": "Location permission name"
+  },
+  "locationPermissionDesc": "Track your location for accurate delivery tracking",
+  "@locationPermissionDesc": {
+    "description": "Location permission description"
+  },
+  "cameraPermissionName": "Camera",
+  "@cameraPermissionName": {
+    "description": "Camera permission name"
+  },
+  "cameraPermissionDesc": "Take photos of deliveries and documents",
+  "@cameraPermissionDesc": {
+    "description": "Camera permission description"
+  },
+  "contactsPermissionName": "Contacts",
+  "@contactsPermissionName": {
+    "description": "Contacts permission name"
+  },
+  "contactsPermissionDesc": "Quick contact with customers",
+  "@contactsPermissionDesc": {
+    "description": "Contacts permission description"
+  },
+  "notificationsPermissionName": "Notifications",
+  "@notificationsPermissionName": {
+    "description": "Notifications permission name"
+  },
+  "notificationsPermissionDesc": "Receive order updates and important alerts",
+  "@notificationsPermissionDesc": {
+    "description": "Notifications permission description"
+  },
+  "permissionGranted": "Granted",
+  "@permissionGranted": {
+    "description": "Permission granted status"
+  },
+  "permissionDenied": "Denied",
+  "@permissionDenied": {
+    "description": "Permission denied status"
+  },
+  "permissionNotRequested": "Not requested",
+  "@permissionNotRequested": {
+    "description": "Permission not requested status"
+  },
+  "allowAndContinue": "Allow & Continue",
+  "@allowAndContinue": {
+    "description": "Allow all permissions and continue button"
+  },
+  "somePermissionsDenied": "Some permissions were denied. Please enable them in settings.",
+  "@somePermissionsDenied": {
+    "description": "Message when some permissions are denied"
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button label"
+  },
+  "fullName": "Full Name",
+  "@fullName": {
+    "description": "Full name field label"
+  },
+  "fullNameRequired": "Full name is required",
+  "@fullNameRequired": {
+    "description": "Full name validation error"
+  },
+  "phoneNumberLabel": "Phone Number",
+  "@phoneNumberLabel": {
+    "description": "Phone number field label"
+  },
+  "mobileNumberRequired": "Mobile number is required",
+  "@mobileNumberRequired": {
+    "description": "Mobile number validation error"
+  },
+  "invalidPhone": "Invalid phone number",
+  "@invalidPhone": {
+    "description": "Invalid phone number format error"
+  },
+  "nationalId": "National ID",
+  "@nationalId": {
+    "description": "National ID field label"
+  },
+  "profilePhoto": "Profile Photo",
+  "@profilePhoto": {
+    "description": "Profile photo label"
+  },
+  "profilePhotoRequired": "Profile photo is required",
+  "@profilePhotoRequired": {
+    "description": "Profile photo validation error"
+  },
+  "takePhoto": "Take Photo",
+  "@takePhoto": {
+    "description": "Take photo option"
+  },
+  "chooseFromGallery": "Choose from Gallery",
+  "@chooseFromGallery": {
+    "description": "Choose from gallery option"
+  },
+  "sendCode": "Send Code",
+  "@sendCode": {
+    "description": "Send verification code button"
+  },
+  "sendingCode": "Sending Code...",
+  "@sendingCode": {
+    "description": "Sending code loading state"
+  },
+  "enterVerificationCode": "Enter Verification Code",
+  "@enterVerificationCode": {
+    "description": "OTP page title"
+  },
+  "verificationCodeSent": "Verification code sent to {phone}",
+  "@verificationCodeSent": {
+    "description": "OTP sent message",
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "enterCode": "Enter 6-digit code",
+  "@enterCode": {
+    "description": "OTP input placeholder"
+  },
+  "verify": "Verify",
+  "@verify": {
+    "description": "Verify OTP button"
+  },
+  "verifying": "Verifying...",
+  "@verifying": {
+    "description": "Verifying OTP loading state"
+  },
+  "invalidCode": "Invalid verification code",
+  "@invalidCode": {
+    "description": "Invalid OTP error"
+  },
+  "phoneVerified": "Phone Verified",
+  "@phoneVerified": {
+    "description": "Phone verified status"
+  },
+  "resendCode": "Resend Code",
+  "@resendCode": {
+    "description": "Resend code button"
+  },
+  "verifyPhone": "Verify Phone",
+  "@verifyPhone": {
+    "description": "Verify phone modal title"
+  },
+  "enterCodeSent": "Enter the code sent to your number (Mock)",
+  "@enterCodeSent": {
+    "description": "OTP modal subtitle"
+  },
+  "verifyMock": "Verify (Mock)",
+  "@verifyMock": {
+    "description": "Verify button in mock modal"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "phoneVerifiedMock": "Phone verified (Mock)",
+  "@phoneVerifiedMock": {
+    "description": "Success message after mock verification"
+  },
+  "verified": "Verified",
+  "@verified": {
+    "description": "Verified button text"
+  },
+  "ordersTitle": "Orders",
+  "@ordersTitle": {
+    "description": "Orders page title"
+  },
+  "todayOrders": "Today Orders",
+  "@todayOrders": {
+    "description": "Today orders statistic label"
+  },
+  "inProgress": "In Progress",
+  "@inProgress": {
+    "description": "In progress status and statistic label"
+  },
+  "completed": "Completed",
+  "@completed": {
+    "description": "Completed status and statistic label"
+  },
+  "filterAll": "All",
+  "@filterAll": {
+    "description": "Filter all orders"
+  },
+  "filterNew": "New",
+  "@filterNew": {
+    "description": "Filter new orders"
+  },
+  "filterActive": "Active",
+  "@filterActive": {
+    "description": "Filter active/in progress orders"
+  },
+  "filterDone": "Done",
+  "@filterDone": {
+    "description": "Filter completed/done orders"
+  },
+  "filterInProgress": "In Progress",
+  "@filterInProgress": {
+    "description": "Filter in progress orders"
+  },
+  "filterCompleted": "Completed",
+  "@filterCompleted": {
+    "description": "Filter completed orders"
+  },
+  "reset": "Reset",
+  "@reset": {
+    "description": "Reset filter button"
+  },
+  "apply": "Apply",
+  "@apply": {
+    "description": "Apply filter button"
+  },
+  "filterByType": "Type",
+  "@filterByType": {
+    "description": "Filter by order type"
+  },
+  "filterByDistance": "Distance",
+  "@filterByDistance": {
+    "description": "Filter by distance"
+  },
+  "filterByDate": "Date",
+  "@filterByDate": {
+    "description": "Filter by date"
+  },
+  "filterByArea": "Area",
+  "@filterByArea": {
+    "description": "Filter by area"
+  },
+  "today": "Today",
+  "@today": {
+    "description": "Today date filter"
+  },
+  "tomorrow": "Tomorrow",
+  "@tomorrow": {
+    "description": "Tomorrow date filter"
+  },
+  "custom": "Custom",
+  "@custom": {
+    "description": "Custom date filter"
+  },
+  "sortDistance": "Distance",
+  "@sortDistance": {
+    "description": "Sort by distance option"
+  },
+  "sortTime": "Time",
+  "@sortTime": {
+    "description": "Sort by time option"
+  },
+  "sortStatus": "Status",
+  "@sortStatus": {
+    "description": "Sort by status option"
+  },
+  "status": "Status",
+  "@status": {
+    "description": "Status label"
+  },
+  "sort": "Sort",
+  "@sort": {
+    "description": "Sort button label"
+  },
+  "nearest": "Nearest",
+  "@nearest": {
+    "description": "Sort by nearest option"
+  },
+  "fastestEta": "Fastest ETA",
+  "@fastestEta": {
+    "description": "Sort by fastest ETA option"
+  },
+  "newest": "Newest",
+  "@newest": {
+    "description": "Sort by newest option"
+  },
+  "start": "Start",
+  "@start": {
+    "description": "Start order button"
+  },
+  "drawerOrders": "Orders",
+  "@drawerOrders": {
+    "description": "Drawer menu item for Orders page"
+  },
+  "menuSettings": "Settings",
+  "@menuSettings": {
+    "description": "Settings menu item"
+  },
+  "menuLanguage": "Change Language",
+  "@menuLanguage": {
+    "description": "Change language menu item"
+  },
+  "menuLogout": "Logout",
+  "@menuLogout": {
+    "description": "Logout menu item"
+  },
+  "drawerLogoutTitle": "Logout",
+  "drawerLogoutMessage": "Do you want to logout?",
+  "drawerLogoutYes": "Yes",
+  "drawerLogoutCancel": "Cancel",
+  "drawerStatusOnline": "Online",
+  "drawerStatusOffline": "Offline",
+  "logoutConfirmation": "Are you sure you want to logout?",
+  "@logoutConfirmation": {
+    "description": "Logout confirmation message"
+  },
+  "pickup": "Pickup",
+  "@pickup": {
+    "description": "Pickup order type"
+  },
+  "delivery": "Delivery",
+  "@delivery": {
+    "description": "Delivery order type"
+  },
+  "kmAway": "{distance} km",
+  "@kmAway": {
+    "description": "Distance away format",
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "minAway": "{minutes} min",
+  "@minAway": {
+    "description": "Time away format",
+    "placeholders": {
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "hasClothesAccount": "Has hanger?",
+  "@hasClothesAccount": {
+    "description": "Has hanger label"
+  },
+  "mapPlaceholder": "Map View",
+  "@mapPlaceholder": {
+    "description": "Map placeholder text"
+  },
+  "navigate": "Navigate",
+  "@navigate": {
+    "description": "Navigate button label"
+  },
+  "customerMessages": "Customer messages",
+  "@customerMessages": {
+    "description": "Customer messages section title"
+  },
+  "noMessages": "No messages yet",
+  "@noMessages": {
+    "description": "No messages text"
+  },
+  "end": "End",
+  "@end": {
+    "description": "End order button"
+  },
+  "selectTemplate": "Select template",
+  "@selectTemplate": {
+    "description": "Select template dropdown label"
+  },
+  "send": "Send",
+  "@send": {
+    "description": "Send message button"
+  },
+  "templateOnWay": "On my way",
+  "@templateOnWay": {
+    "description": "Template message: On my way"
+  },
+  "templateArrived": "I have arrived",
+  "@templateArrived": {
+    "description": "Template message: I have arrived"
+  },
+  "templateDelivered": "Order delivered",
+  "@templateDelivered": {
+    "description": "Template message: Order delivered"
+  },
+  "templateDelayed": "Running late",
+  "@templateDelayed": {
+    "description": "Template message: Running late"
+  },
+  "map": "Map",
+  "@map": {
+    "description": "Map page title"
+  },
+  "locationPermissionDenied": "Location Permission Denied",
+  "@locationPermissionDenied": {
+    "description": "Location permission denied title"
+  },
+  "locationPermissionDeniedMessage": "Location permission is required to show your current location. Please grant permission in settings.",
+  "@locationPermissionDeniedMessage": {
+    "description": "Location permission denied message"
+  },
+  "mapShowingFallback": "Showing Riyadh, Saudi Arabia",
+  "@mapShowingFallback": {
+    "description": "Map fallback location message"
+  },
+  "noCoordinatesAvailable": "No coordinates available",
+  "@noCoordinatesAvailable": {
+    "description": "Shown when order has no lat/lng"
+  },
+  "mapLoadErrorTitle": "Map failed to load",
+  "@mapLoadErrorTitle": {
+    "description": "Map load error title"
+  },
+  "mapLoadErrorMessage": "Please check your Google Maps API key, internet connection, and try again.",
+  "@mapLoadErrorMessage": {
+    "description": "Map load error message"
+  },
+  "pickupPhotosTitle": "Pickup Photos",
+  "@pickupPhotosTitle": {
+    "description": "Pickup photos section title"
+  },
+  "pickupPhotosHint": "Take clear photos of the clothes before pickup.",
+  "@pickupPhotosHint": {
+    "description": "Pickup photos hint text"
+  },
+  "addPhotos": "Add Photos",
+  "@addPhotos": {
+    "description": "Add photos button"
+  },
+  "pickupPhotosEmptyState": "No pickup photos yet",
+  "@pickupPhotosEmptyState": {
+    "description": "Empty state text when no pickup photos added"
+  },
+  "pickupPhotosAddAnotherTitle": "Add another?",
+  "@pickupPhotosAddAnotherTitle": {
+    "description": "Dialog title asking to add another photo"
+  },
+  "pickupPhotosAddAnotherMessage": "Do you want to take another photo?",
+  "@pickupPhotosAddAnotherMessage": {
+    "description": "Dialog message asking to add another photo"
+  },
+  "pickupPhotosRequired": "Please add at least one pickup photo before confirming.",
+  "@pickupPhotosRequired": {
+    "description": "Validation message when trying to confirm pickup without photos"
+  },
+  "cameraPermissionDenied": "Camera permission is required to take photos.",
+  "@cameraPermissionDenied": {
+    "description": "Camera permission denied message"
+  },
+  "yes": "Yes",
+  "@yes": {
+    "description": "Yes button label"
+  },
+  "no": "No",
+  "@no": {
+    "description": "No button label"
+  },
+  "confirmPickup": "Confirm Pickup",
+  "@confirmPickup": {
+    "description": "Confirm pickup button label"
+  },
+  "goToOnline": "Go To Online",
+  "statusOffline": "Offline",
+  "income": "Income",
+  "promotion": "Promotion",
+  "inbox": "Inbox",
+  "appealCentre": "Appeal Centre",
+  "tutorialCentre": "Tutorial Centre",
+  "contactCs": "Contact CS Team",
+  "comingSoon": "Coming soon",
+  "tripDetails": "Trip Details",
+  "orderStatus": "Order Status",
+  "stepCourier": "Courier",
+  "stepClient": "Client",
+  "stepLaundry": "Laundry",
+  "stepPickupFromHome": "Pickup from home",
+  "stepDeliverToLaundry": "Deliver to laundry",
+  "yourEarnings": "Your Earnings",
+  "baseAmount": "Base amount",
+  "bonusIfDeliveredWithin": "+5 SAR bonus if delivered within {minutes} minutes",
+  "accept": "Accept",
+  "reject": "Reject",
+  "addressNotAvailable": "Address not available",
+  "orderType": "Order type",
+  "orderTypeLaundry": "Laundry",
+  "orderTypeIron": "Iron",
+  "orderTypeBoth": "Both",
+  "orderTypeCarpet": "Carpet",
+  "buildingPhotosTitle": "Building photos",
+  "buildingPhotosHint": "Photos of the building or entrance.",
+  "buildingPhotosEmptyState": "No building photos yet",
+  "customerPhotosTitle": "Customer photos",
+  "customerPhotosEmptyState": "No customer photos",
+  "progressOnTheWayToClient": "On the way to Client",
+  "progressArrivedAtClient": "Arrived at Client",
+  "progressOnTheWayToLaundry": "On the way to Laundry",
+  "progressDeliveredToLaundry": "Delivered to Laundry",
+  "searchingForNewOrder": "Searching for new order...",
+  "@searchingForNewOrder": {
+    "description": "Status message while matching courier to order"
+  },
+  "incomingOrderTitle": "New Order",
+  "@incomingOrderTitle": {
+    "description": "Incoming order screen title"
+  },
+  "incomingOrderNewOrderFound": "New order found!",
+  "@incomingOrderNewOrderFound": {
+    "description": "Heading when new order is matched"
+  },
+  "incomingOrderFirstStopLaundry": "1st: Laundry",
+  "@incomingOrderFirstStopLaundry": {
+    "description": "First stop for delivery order"
+  },
+  "incomingOrderFirstStopCustomer": "1st: Customer",
+  "@incomingOrderFirstStopCustomer": {
+    "description": "First stop for pickup order"
+  },
+  "incomingOrderSecondStopCustomer": "2nd: Customer",
+  "@incomingOrderSecondStopCustomer": {
+    "description": "Second stop for delivery order"
+  },
+  "incomingOrderSecondStopLaundry": "2nd: Laundry",
+  "@incomingOrderSecondStopLaundry": {
+    "description": "Second stop for pickup order"
+  },
+  "labelLaundry": "Laundry",
+  "@labelLaundry": {
+    "description": "Stop type label for laundry"
+  },
+  "labelHome": "Home",
+  "@labelHome": {
+    "description": "Stop type label for customer home"
+  },
+  "estimatedArrival": "Estimated arrival",
+  "@estimatedArrival": {
+    "description": "ETA section label"
+  },
+  "rejectRatingWarning": "Rejecting may affect your rating",
+  "@rejectRatingWarning": {
+    "description": "Warning when rejecting order"
+  },
+  "confirmReject": "Reject",
+  "@confirmReject": {
+    "description": "Confirm reject button"
+  },
+  "expandMap": "Expand map",
+  "@expandMap": {
+    "description": "Map expand fullscreen button tooltip"
+  },
+  "resetMap": "Reset map",
+  "@resetMap": {
+    "description": "Map recenter/reset button tooltip"
+  },
+  "closeMap": "Close",
+  "@closeMap": {
+    "description": "Close fullscreen map button"
+  },
+  "orderExpired": "Order expired",
+  "@orderExpired": {
+    "description": "Toast when incoming order countdown reaches zero"
+  },
+  "timeRemaining": "Time left",
+  "@timeRemaining": {
+    "description": "Optional label for countdown timer"
+  },
+  "yourEarningsTitle": "Your Earnings",
+  "@yourEarningsTitle": {
+    "description": "Earnings card title"
+  },
+  "baseAmountLabel": "Base amount: SAR {amount}",
+  "@baseAmountLabel": {
+    "description": "Base earnings with amount placeholder",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "bonusLabel": "+{bonus} SAR bonus if delivered within {minutes} minute",
+  "@bonusLabel": {
+    "description": "Bonus condition with placeholders",
+    "placeholders": {
+      "bonus": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "acceptWithinLabel": "Accept within",
+  "@acceptWithinLabel": {
+    "description": "Countdown timer label"
+  },
+  "orderExpiredTitle": "Order expired",
+  "@orderExpiredTitle": {
+    "description": "Dialog title when order expires"
+  },
+  "orderExpiredBody": "This order is no longer available. You will be returned to the map to find a new order.",
+  "@orderExpiredBody": {
+    "description": "Dialog body when order expires"
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "OK button"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "Close button for modals/dialogs"
+  },
+  "activeTripTitle": "Active Trip",
+  "@activeTripTitle": {
+    "description": "Active trip page title"
+  },
+  "orderNumberLabel": "Order Number #{number}",
+  "@orderNumberLabel": {
+    "description": "Order number display with label",
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "etaMinutes": "{minutes} min",
+  "@etaMinutes": {
+    "description": "ETA in minutes"
+  },
+  "etaTimeRange": "{start} – {end}",
+  "@etaTimeRange": {
+    "description": "ETA as time range (e.g. 3:00 PM – 3:30 PM)",
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "directions": "Directions",
+  "@directions": {
+    "description": "Open in Google Maps"
+  },
+  "call": "Call",
+  "@call": {
+    "description": "Call customer/laundry"
+  },
+  "moreDetails": "More details",
+  "@moreDetails": {
+    "description": "Show more order details"
+  },
+  "arrivedAtLaundry": "Arrived at Laundry",
+  "@arrivedAtLaundry": {
+    "description": "Primary action for delivery - first stop"
+  },
+  "arrivedAtCustomer": "Arrived at Customer",
+  "@arrivedAtCustomer": {
+    "description": "Primary action for pickup - first stop"
+  },
+  "help": "Help",
+  "@help": {
+    "description": "Support/help button"
+  },
+  "supportDrawerTitle": "Support",
+  "@supportDrawerTitle": {
+    "description": "Support drawer title"
+  },
+  "collapseMap": "Collapse map",
+  "@collapseMap": {
+    "description": "Collapse map button tooltip"
+  },
+  "orderNotFound": "Order not found",
+  "@orderNotFound": {
+    "description": "Order not found message"
+  },
+  "nextDestination": "Next destination",
+  "@nextDestination": {
+    "description": "Destination label on map"
+  },
+  "buildingPhotos": "Building photos",
+  "@buildingPhotos": {
+    "description": "Building photos section in modal"
+  },
+  "fullAddress": "Full address",
+  "@fullAddress": {
+    "description": "Full address label"
+  },
+  "notes": "Notes",
+  "@notes": {
+    "description": "Notes label"
+  },
+  "complaintHint": "Describe your issue...",
+  "@complaintHint": {
+    "description": "Complaint text field hint"
+  },
+  "complaintTitle": "Submit a complaint",
+  "@complaintTitle": {
+    "description": "Complaint form title"
+  },
+  "send": "Send",
+  "@send": {
+    "description": "Send/submit button"
+  },
+  "complaintSubmitted": "Complaint submitted successfully",
+  "@complaintSubmitted": {
+    "description": "Success message after complaint submit"
+  },
+  "arrivedSuccess": "Arrived at destination",
+  "@arrivedSuccess": {
+    "description": "Success message when arrived button pressed"
+  },
+  "statusArrivedAtLaundry": "Arrived at laundry",
+  "@statusArrivedAtLaundry": {
+    "description": "Order status label when courier arrived at laundry"
+  },
+  "statusArrivedAtCustomer": "Arrived at customer",
+  "@statusArrivedAtCustomer": {
+    "description": "Order status label when courier arrived at customer"
+  },
+  "confirmArrivalLaundryQ": "Confirm arrival to the laundry?",
+  "@confirmArrivalLaundryQ": {
+    "description": "Confirmation dialog for arriving at laundry"
+  },
+  "confirmPickupQ": "Confirm pickup?",
+  "@confirmPickupQ": {
+    "description": "Confirmation dialog for picking up the order"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm action button"
+  },
+  "pickedUpButton": "I have picked up the order",
+  "@pickedUpButton": {
+    "description": "Button text after confirming arrival at laundry"
+  },
+  "messages": "Messages",
+  "@messages": {
+    "description": "Messages action button"
+  },
+  "customerNotes": "Customer Notes",
+  "@customerNotes": {
+    "description": "Customer notes section label"
+  },
+  "customerChatSubtitle": "Customer Chat",
+  "@customerChatSubtitle": {
+    "description": "Subtitle shown in chat app bar"
+  },
+  "typeMessage": "Type a message...",
+  "@typeMessage": {
+    "description": "Chat input placeholder"
+  },
+  "attachCamera": "Camera",
+  "@attachCamera": {
+    "description": "Camera attachment tooltip"
+  },
+  "attachGallery": "Gallery",
+  "@attachGallery": {
+    "description": "Gallery attachment tooltip"
+  },
+  "cannedSure": "Sure",
+  "@cannedSure": {
+    "description": "Canned reply"
+  },
+  "cannedOnMyWay": "On my way",
+  "@cannedOnMyWay": {
+    "description": "Canned reply"
+  },
+  "cannedArrivingSoon": "Arriving in a few minutes",
+  "@cannedArrivingSoon": {
+    "description": "Canned reply"
+  },
+  "cannedShareLocation": "Can you share the exact location?",
+  "@cannedShareLocation": {
+    "description": "Canned reply"
+  },
+  "cannedOrderPickedUp": "Order picked up",
+  "@cannedOrderPickedUp": {
+    "description": "Canned reply"
+  },
+  "cannedSendPhoto": "Can you send a photo of the place?",
+  "@cannedSendPhoto": {
+    "description": "Canned reply"
+  },
+  "cannedLeaveAtDoor": "I will leave the clothes at the door",
+  "@cannedLeaveAtDoor": {
+    "description": "Canned reply"
+  },
+  "openChat": "Open Chat",
+  "@openChat": {
+    "description": "Button to open full-screen chat"
+  },
+  "deliverToCustomerTitle": "Deliver the order to the customer",
+  "@deliverToCustomerTitle": {
+    "description": "Delivery page title"
+  },
+  "clothesRelationshipQ": "Is there a clothes hanger?",
+  "@clothesRelationshipQ": {
+    "description": "Clothes hanger indicator label"
+  },
+  "faceToFaceDelivery": "Face-to-face delivery",
+  "@faceToFaceDelivery": {
+    "description": "Shown when no clothes hanger"
+  },
+  "buildingPanelTitle": "Building",
+  "@buildingPanelTitle": {
+    "description": "Building info panel title"
+  },
+  "buildingNo": "Building No",
+  "@buildingNo": {
+    "description": "Building number label"
+  },
+  "floorNo": "Floor No",
+  "@floorNo": {
+    "description": "Floor number label"
+  },
+  "apartmentNo": "Apartment No",
+  "@apartmentNo": {
+    "description": "Apartment number label"
+  },
+  "followSteps": "Follow the steps",
+  "@followSteps": {
+    "description": "Steps section header"
+  },
+  "step1": "Step 1",
+  "@step1": {
+    "description": "Step 1 title"
+  },
+  "step2": "Step 2",
+  "@step2": {
+    "description": "Step 2 title"
+  },
+  "step3Optional": "Step 3 (Optional)",
+  "@step3Optional": {
+    "description": "Step 3 optional title"
+  },
+  "cantReachCustomer": "Can't reach the customer",
+  "@cantReachCustomer": {
+    "description": "Link when courier cannot reach customer"
+  },
+  "previousPhotoExamples": "Previous photo examples",
+  "@previousPhotoExamples": {
+    "description": "Link to sample photos"
+  },
+  "samplePhotosTitle": "Sample photos",
+  "@samplePhotosTitle": {
+    "description": "Sample photos dialog title"
+  },
+  "deliveredBtn": "Delivered",
+  "@deliveredBtn": {
+    "description": "Final delivery confirmation button"
+  },
+  "mustTakeBuildingPhotoWarning": "Please take at least one building photo to complete delivery",
+  "@mustTakeBuildingPhotoWarning": {
+    "description": "Warning when no building photo taken"
+  },
+  "step2Instruction": "Take proof photos of arriving at the building to confirm reaching the customer address",
+  "@step2Instruction": {
+    "description": "Step 2 instruction text"
+  },
+  "step3Instruction": "Take photos of the order",
+  "@step3Instruction": {
+    "description": "Step 3 instruction text"
+  },
+  "stepBeforePickup": "Before pickup",
+  "@stepBeforePickup": {
+    "description": "Progress tracker step 1 (semantics/tooltip only)"
+  },
+  "stepPickedUp": "Picked up",
+  "@stepPickedUp": {
+    "description": "Progress tracker step 2 (semantics/tooltip only)"
+  },
+  "stepDelivered": "Delivered",
+  "@stepDelivered": {
+    "description": "Progress tracker step 3 (semantics/tooltip only)"
+  },
+  "confirmArrivalCustomerQ": "Confirm arrival to the customer?",
+  "@confirmArrivalCustomerQ": {
+    "description": "Pickup flow: confirm arrival at customer"
+  },
+  "pickedUpFromCustomerBtn": "I have picked up from customer",
+  "@pickedUpFromCustomerBtn": {
+    "description": "Pickup flow: confirm pickup from customer"
+  },
+  "confirmHandoverToLaundryQ": "Confirm handover to laundry?",
+  "@confirmHandoverToLaundryQ": {
+    "description": "Pickup flow: confirm delivery to laundry"
+  },
+  "deliveredToLaundryBtn": "Delivered to laundry",
+  "@deliveredToLaundryBtn": {
+    "description": "Pickup flow: final button label"
+  }
+}

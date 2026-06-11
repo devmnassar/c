@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1046394010110",
+    "project_id": "gaseel-courier-app",
+    "storage_bucket": "gaseel-courier-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046394010110:android:9a22a67cb180f3da77e8af",
+        "android_client_info": {
+          "package_name": "sa.gaseelexpress.courier.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABynkEtolltMpvlnze5oL_oBffPBDfeMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

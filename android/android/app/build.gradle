@@ -1,0 +1,127 @@
+plugins {
+    id "com.android.application"
+    // START: FlutterFire Configuration
+    id 'com.google.gms.google-services'
+    // END: FlutterFire Configuration
+    id "org.jetbrains.kotlin.android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+import java.util.Properties
+
+def keystorePropertiesFile = rootProject.file("key.properties")
+def keystoreProperties = new Properties()
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+def mapsKeyFallback = "AIzaSyBBuYq5fqNGpxADCFjJsF6CGB_pumMPEik"
+def mapsDebugKey = localProperties.getProperty('gms.debugApiKey', mapsKeyFallback)
+def mapsReleaseKey = localProperties.getProperty('gms.releaseApiKey', mapsKeyFallback)
+
+def hasValidReleaseKeystore =
+    keystorePropertiesFile.exists() &&
+    keystoreProperties['storePassword'] &&
+    keystoreProperties['keyPassword'] &&
+    keystoreProperties['keyAlias'] &&
+    keystoreProperties['storeFile']
+
+def debugKeystoreFile = file('debug.keystore')
+
+android {
+    namespace "sa.gaseelexpress.courier.test"
+    compileSdkVersion flutter.compileSdkVersion
+    ndkVersion flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        applicationId "sa.gaseelexpress.courier.test"
+        minSdkVersion flutter.minSdkVersion
+        targetSdkVersion flutter.targetSdkVersion
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        manifestPlaceholders = [MAPS_API_KEY: ""]
+    }
+
+    signingConfigs {
+        if (debugKeystoreFile.exists()) {
+            debug {
+                storeFile debugKeystoreFile
+                storePassword "android"
+                keyAlias "androiddebugkey"
+                keyPassword "android"
+            }
+        }
+
+        if (hasValidReleaseKeystore) {
+            release {
+                keyAlias keystoreProperties['keyAlias'].toString()
+                keyPassword keystoreProperties['keyPassword'].toString()
+                storeFile file(keystoreProperties['storeFile'].toString())
+                storePassword keystoreProperties['storePassword'].toString()
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            manifestPlaceholders.MAPS_API_KEY = mapsDebugKey
+            if (debugKeystoreFile.exists()) {
+                signingConfig signingConfigs.debug
+            }
+        }
+
+        release {
+            minifyEnabled false
+            shrinkResources false
+            manifestPlaceholders.MAPS_API_KEY = mapsReleaseKey
+            if (hasValidReleaseKeystore) {
+                signingConfig signingConfigs.release
+            } else {
+                throw new GradleException(
+                    "Release build requires android/key.properties with storePassword, keyPassword, keyAlias, storeFile. " +
+                    "Create key.properties and upload-keystore.jks for release signing. See: https://docs.flutter.dev/deployment/android"
+                )
+            }
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "androidx.appcompat:appcompat:1.6.1"
+    implementation "com.google.android.gms:play-services-maps:19.0.0"
+}
