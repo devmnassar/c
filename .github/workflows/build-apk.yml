@@ -9,19 +9,19 @@ runs-on: ubuntu-latest
 
 ```
 steps:
-  - name: Checkout
+  - name: Checkout Repository
     uses: actions/checkout@v4
 
   - name: Setup Java
     uses: actions/setup-java@v4
     with:
-      distribution: temurin
-      java-version: 17
+      distribution: 'temurin'
+      java-version: '17'
 
   - name: Setup Flutter
     uses: subosito/flutter-action@v2
     with:
-      flutter-version: 3.32.0
+      flutter-version: '3.32.0'
 
   - name: Install Dependencies
     run: flutter pub get
