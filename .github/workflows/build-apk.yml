@@ -7,7 +7,6 @@ jobs:
 build:
 runs-on: ubuntu-latest
 
-```
 steps:
   - name: Checkout Repository
     uses: actions/checkout@v4
@@ -15,7 +14,7 @@ steps:
   - name: Setup Java
     uses: actions/setup-java@v4
     with:
-      distribution: 'temurin'
+      distribution: temurin
       java-version: '17'
 
   - name: Setup Flutter
@@ -34,4 +33,3 @@ steps:
     with:
       name: app-release
       path: build/app/outputs/flutter-apk/app-release.apk
-```
