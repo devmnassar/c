@@ -38,11 +38,11 @@ def mapsDebugKey = localProperties.getProperty('gms.debugApiKey', mapsKeyFallbac
 def mapsReleaseKey = localProperties.getProperty('gms.releaseApiKey', mapsKeyFallback)
 
 def hasValidReleaseKeystore =
-    keystorePropertiesFile.exists() &&
-    keystoreProperties['storePassword'] &&
-    keystoreProperties['keyPassword'] &&
-    keystoreProperties['keyAlias'] &&
-    keystoreProperties['storeFile']
+        keystorePropertiesFile.exists() &&
+        keystoreProperties['storePassword'] &&
+        keystoreProperties['keyPassword'] &&
+        keystoreProperties['keyAlias'] &&
+        keystoreProperties['storeFile']
 
 def debugKeystoreFile = file('debug.keystore')
 
@@ -97,6 +97,7 @@ android {
     buildTypes {
         debug {
             manifestPlaceholders.MAPS_API_KEY = mapsDebugKey
+
             if (debugKeystoreFile.exists()) {
                 signingConfig signingConfigs.debug
             }
@@ -106,15 +107,23 @@ android {
             minifyEnabled false
             shrinkResources false
             manifestPlaceholders.MAPS_API_KEY = mapsReleaseKey
+
             if (hasValidReleaseKeystore) {
                 signingConfig signingConfigs.release
-            } else {
-                throw new GradleException(
-                    "Release build requires android/key.properties with storePassword, keyPassword, keyAlias, storeFile. " +
-                    "Create key.properties and upload-keystore.jks for release signing. See: https://docs.flutter.dev/deployment/android"
-                )
             }
         }
+    }
+}
+
+gradle.taskGraph.whenReady { taskGraph ->
+    def isReleaseBuild = taskGraph.allTasks.any {
+        it.name.toLowerCase().contains("release")
+    }
+
+    if (isReleaseBuild && !hasValidReleaseKeystore) {
+        throw new GradleException(
+            "Release build requires android/key.properties with storePassword, keyPassword, keyAlias and storeFile."
+        )
     }
 }
 
