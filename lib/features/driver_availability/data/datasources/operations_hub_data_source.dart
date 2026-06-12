@@ -79,7 +79,7 @@ class OperationsHubDataSource {
                     .trim(),
           ),
         )
-        .withAutomaticReconnect([0, 2000, 5000, 10000, 30000])
+        .withAutomaticReconnect()
         .build();
 
     connection.onreconnected(({String? connectionId}) {
