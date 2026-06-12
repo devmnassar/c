@@ -1,4 +1,4 @@
-name: BuildAPKs
+name: BuildAPKsFlutter
 
 on:
   workflow_dispatch:
